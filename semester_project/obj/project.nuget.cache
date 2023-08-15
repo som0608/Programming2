@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sy+u7S28ZpklWKnKUhF8uWD+kh2s+Hi1e8ms2FRUt0Mm2vYFXaFrBZpLyjzVaVYMjMXoOIXtLcNnyelT82cMvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\airtt\\OneDrive\\ドキュメント\\2 semester\\Programming2\\semester_project\\semester_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\airtt\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\airtt\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512"
+  ],
+  "logs": []
+}
