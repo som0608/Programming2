@@ -153,9 +153,11 @@ class Program {
         if (!isBlankCell[selectedCellRow, selectedCellCol]) {
             BlankNumber--;
         }
-        sudokuBoard[selectedCellRow, selectedCellCol] = digit;
-        isBlankCell[selectedCellRow, selectedCellCol] = true;
-        drawingArea.QueueDraw();
+        if (HighLightCell[selectedCellRow, selectedCellCol]) {
+            sudokuBoard[selectedCellRow, selectedCellCol] = digit;
+            isBlankCell[selectedCellRow, selectedCellCol] = true;
+            drawingArea.QueueDraw();
+        }
 
         if (BlankNumber == 0) {
             if (isCompleted()) {
@@ -225,7 +227,9 @@ class Program {
         if (row >= 0 && row < BoardSize && col >= 0 && col < BoardSize) {
             selectedCellRow = row;
             selectedCellCol = col;
-            drawingArea.QueueDraw();
+            if (HighLightCell[selectedCellRow, selectedCellCol]) {
+                drawingArea.QueueDraw();
+            }
         }
     }
 
